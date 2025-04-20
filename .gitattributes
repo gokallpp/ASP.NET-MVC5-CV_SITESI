@@ -3,17 +3,11 @@
 *.css linguist-vendored
 *.scss linguist-vendored
 *.html linguist-vendored
-*.htm linguist-vendored
-*.json linguist-vendored
-*.xml linguist-vendored
 
 
 /AdminLTE-3.0.4/** linguist-vendored
 /startbootstrap-resume-gh-pages/** linguist-vendored
 /assets/** linguist-vendored
-/static/** linguist-vendored
-
-
-*.cs linguist-detectable=true
+/login-form-20/** linguist-vendored
 
 
