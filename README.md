@@ -54,7 +54,6 @@ Bu proje, kullanıcıların kişisel verilerini düzenleyip dinamik bir web taba
 
 
 ## 🗃️ **Model Şeması**
-![s](https://github.com/user-attachments/assets/66c73bae-fcdc-4807-abe4-2b31a08a3a2a)
 
 
 ---
