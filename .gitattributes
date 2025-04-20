@@ -1,7 +1,19 @@
-# Auto detect text files and perform LF normalization
+
 *.js linguist-vendored
 *.css linguist-vendored
-*.html linguist-vendored
 *.scss linguist-vendored
+*.html linguist-vendored
+*.htm linguist-vendored
+*.json linguist-vendored
+*.xml linguist-vendored
+
+
+/wwwroot/** linguist-vendored
+/public/** linguist-vendored
+/assets/** linguist-vendored
+/static/** linguist-vendored
+
+
 *.cs linguist-detectable=true
+
 
