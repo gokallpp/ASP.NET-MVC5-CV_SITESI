@@ -8,7 +8,7 @@
 *.xml linguist-vendored
 
 
-/wwwroot/** linguist-vendored
+/AdminLTE-3.0.4/** linguist-vendored
 /public/** linguist-vendored
 /assets/** linguist-vendored
 /static/** linguist-vendored
