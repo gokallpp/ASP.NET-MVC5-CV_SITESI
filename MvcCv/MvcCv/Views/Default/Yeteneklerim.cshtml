@@ -1,0 +1,117 @@
+﻿@using MvcCv.Models.Entity;
+@model List<TblYetenekler>
+
+
+
+<div class="resume-section-content">
+    <h3 class="mb-5">Programming Languages & Tools</h3>
+    
+        
+        <ul class="list-inline dev-icons">        
+
+
+            <!-- Font Awesome için -->
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+            <div class="tech-card">
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" alt="C#" />
+
+                </div>
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Microsoft_.NET_logo.png" alt="ASP.NET" />
+
+                </div>
+
+
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" alt="SQL Server" />
+
+                </div>
+
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" />
+                </div>
+
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML5" />
+                </div>
+
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS3" />
+                </div>
+
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" />
+                </div>
+
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" />
+                </div>
+
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg" alt="Git" />
+                </div>
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" />
+                </div>
+
+
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/59/Visual_Studio_Icon_2019.svg" alt="Visual Studio" />
+                </div>
+                <div class="tech-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="VS Code" />
+                </div>
+
+                <div class="tech-item">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Coding" />
+                </div>
+
+               
+
+
+
+            </div>
+
+            <style>
+                .tech-card {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    gap: 12px;
+                    padding: 20px;
+                }
+
+                .tech-item img {
+                    width: 70px;
+                    height: 70px;
+                    object-fit: contain;
+                    border-radius: 8px;
+                    background-color: #f8f8f8;
+                    padding: 8px;
+                    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+                    transition: transform 0.2s ease;
+                }
+
+                    .tech-item img:hover {
+                        transform: scale(1.1);
+                    }
+            </style>
+
+
+
+        </ul>
+        <div class="subheading mb-3">SKILLS</div>
+        <ul class="fa-ul mb-0">
+            @foreach (var x in Model)
+             {
+                <li>
+                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                    @x.Yetenek
+                </li>
+             }
+             </ul>
+           
+    </div>
+
