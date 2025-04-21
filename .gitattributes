@@ -1,4 +1,10 @@
-# --- HTML ve benzeri dosyaları dışla ---
+# --- Dışlanacak klasörler (HTML + tema içerikleri) ---
+/AdminLTE-3.0.4/** linguist-vendored
+/startbootstrap-resume-gh-pages/** linguist-vendored
+/login-form-20/** linguist-vendored
+/Views/** linguist-vendored
+
+# --- Dışlanacak dosya türleri ---
 *.html linguist-vendored
 *.htm linguist-vendored
 *.css linguist-vendored
@@ -8,17 +14,11 @@
 *.xml linguist-vendored
 *.svg linguist-vendored
 *.ejs linguist-vendored
-*.config linguist-vendored
 *.yml linguist-vendored
 *.yaml linguist-vendored
+*.config linguist-vendored
 
-# --- Tipik web dizinlerini dışla ---
-/wwwroot/** linguist-vendored
-/public/** linguist-vendored
-/assets/** linguist-vendored
-/static/** linguist-vendored
-
-# --- C# dosyalarının ve klasörlerinin algılanmasını zorunlu kıl ---
+# --- C#'ı zorla algılat ---
 *.cs linguist-detectable=true
 /src/** linguist-detectable=true
 /App/** linguist-detectable=true
