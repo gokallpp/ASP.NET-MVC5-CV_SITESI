@@ -1,5 +1,26 @@
-*.cs linguist-detectable=true
-*.js linguist-vendored
-*.css linguist-vendored
+# --- HTML ve benzeri dosyaları dışla ---
 *.html linguist-vendored
+*.htm linguist-vendored
+*.css linguist-vendored
 *.scss linguist-vendored
+*.js linguist-vendored
+*.json linguist-vendored
+*.xml linguist-vendored
+*.svg linguist-vendored
+*.ejs linguist-vendored
+*.config linguist-vendored
+*.yml linguist-vendored
+*.yaml linguist-vendored
+
+# --- Tipik web dizinlerini dışla ---
+/wwwroot/** linguist-vendored
+/public/** linguist-vendored
+/assets/** linguist-vendored
+/static/** linguist-vendored
+
+# --- C# dosyalarının ve klasörlerinin algılanmasını zorunlu kıl ---
+*.cs linguist-detectable=true
+/src/** linguist-detectable=true
+/App/** linguist-detectable=true
+/Controllers/** linguist-detectable=true
+/Models/** linguist-detectable=true
